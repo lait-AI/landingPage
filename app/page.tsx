@@ -54,7 +54,48 @@ export default function Home() {
             <h2 className="text-4xl font-semibold text-white text-center mb-16">
               44% of Paid Leads Are Lost Due to Agent Availability
             </h2>
-            <div className="min-h-[400px]"></div>
+            <div className="grid md:grid-cols-2 gap-12">
+              <div className="bg-white/5 p-8 rounded-xl backdrop-blur-[2px] border border-white/10">
+                <h3 className="text-2xl font-semibold text-white mb-4">AI-Powered Call Management</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  Our AI secretary handles all incoming calls professionally, ensuring no lead goes unanswered. It seamlessly:
+                </p>
+                <ul className="mt-4 space-y-3 text-gray-300">
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    Books appointments directly into your Google Calendar
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    Sends automated confirmation texts and emails to clients
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    Provides immediate follow-up communication
+                  </li>
+                </ul>
+              </div>
+              <div className="bg-white/5 p-8 rounded-xl backdrop-blur-[2px] border border-white/10">
+                <h3 className="text-2xl font-semibold text-white mb-4">Real-Time Agent Updates</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  Stay informed without being interrupted. After each call, you receive:
+                </p>
+                <ul className="mt-4 space-y-3 text-gray-300">
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    AI-generated call summaries via email and text
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    Lead qualification assessment
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    Automated calendar invites for scheduled meetings
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -64,7 +105,48 @@ export default function Home() {
             <h2 className="text-4xl font-semibold text-white text-center mb-16">
               80% of Leads Would Rather Call Another Agent Than Leave A Voicemail
             </h2>
-            <div className="min-h-[400px]"></div>
+            <div className="grid md:grid-cols-2 gap-12">
+              <div className="bg-white/5 p-8 rounded-xl backdrop-blur-[2px] border border-white/10">
+                <h3 className="text-2xl font-semibold text-white mb-4">24/7 Professional Response</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  Never miss another opportunity. Our AI secretary:
+                </p>
+                <ul className="mt-4 space-y-3 text-gray-300">
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    Answers calls professionally at any hour
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    Handles multiple calls simultaneously
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    Maintains consistent quality of service
+                  </li>
+                </ul>
+              </div>
+              <div className="bg-white/5 p-8 rounded-xl backdrop-blur-[2px] border border-white/10">
+                <h3 className="text-2xl font-semibold text-white mb-4">Smart Lead Nurturing</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  Keep leads engaged with automated follow-ups:
+                </p>
+                <ul className="mt-4 space-y-3 text-gray-300">
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    Personalized thank you messages
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    Meeting reminders and updates
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    Seamless rescheduling assistance
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -74,7 +156,48 @@ export default function Home() {
             <h2 className="text-4xl font-semibold text-white text-center mb-16">
               Our Solution
             </h2>
-            <div className="min-h-[400px]"></div>
+            <div className="grid md:grid-cols-2 gap-12">
+              <div className="bg-white/5 p-8 rounded-xl backdrop-blur-[2px] border border-white/10">
+                <h3 className="text-2xl font-semibold text-white mb-4">AI-Powered Analytics Dashboard</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  Gain deep insights through our AI analysis:
+                </p>
+                <ul className="mt-4 space-y-3 text-gray-300">
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    Lead source tracking and analysis
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    Call duration and quality metrics
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    Warm vs cold lead classification
+                  </li>
+                </ul>
+              </div>
+              <div className="bg-white/5 p-8 rounded-xl backdrop-blur-[2px] border border-white/10">
+                <h3 className="text-2xl font-semibold text-white mb-4">AI Transcript Intelligence</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  Every call is analyzed to provide:
+                </p>
+                <ul className="mt-4 space-y-3 text-gray-300">
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    Sentiment analysis and lead scoring
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    Common customer pain points
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    Conversion opportunity insights
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </section>
       </main>
